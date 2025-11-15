@@ -34,6 +34,7 @@ const Info = ({ setStep }) => {
         } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
             newErrors.email = "Please enter a valid email address";
         }
+        if (!form.name.trim()) newErrors.name = "This field is required";
         if (!form.email.trim()) newErrors.email = "This field is required";
         if (!form.phone.trim()) newErrors.phone = "This field is required";
 
