@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variable fonts */
+@font-face {
+  font-family: "NotoSans";
+  src: url("/src/assets/fonts/NotoSans-VariableFont_wdth,wght.ttf") format("truetype-variations");
+}
+
+@font-face {
+  font-family: "NotoSansItalic";
+  src: url("/src/assets/fonts/NotoSans-Italic-VariableFont_wdth,wght.ttf") format("truetype-variations");
+}
+
+/* Static fonts */
+@font-face {
+  font-family: "NotoSans";
+  src: url("/src/assets/fonts/static/NotoSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "NotoSans";
+  src: url("/src/assets/fonts/static/NotoSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "NotoSans";
+  src: url("/src/assets/fonts/static/NotoSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+body {
+  margin: 0;
+  font-family: "NotoSans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "NotoSans", monospace;
+}
