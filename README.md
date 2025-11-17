@@ -21,9 +21,9 @@ Each challenge has its own folder containing:
 Example Structure:
 
 frontend-mentor/ <br/>
-├── nft-preview-card/ <br/>
-├── four-card-section/ <br/>
-├── multi-step-form/ <br/>
+├── browser-extensions-manager-ui/ <br/>
+├── browser-extensions-manager-ui/ <br/>
+├── conference-ticket-generator/ <br/>
 └── ...more challenges <br/>
 
 ## 🛠️ Tech Stack
