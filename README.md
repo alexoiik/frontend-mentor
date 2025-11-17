@@ -22,8 +22,8 @@ Example Structure:
 
 frontend-mentor/ <br/>
 ├── browser-extensions-manager-ui/ <br/>
-├── browser-extensions-manager-ui/ <br/>
 ├── conference-ticket-generator/ <br/>
+├── multi-step-form/ <br/>
 └── ...more challenges <br/>
 
 ## 🛠️ Tech Stack
