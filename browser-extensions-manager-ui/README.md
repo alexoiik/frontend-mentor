@@ -12,7 +12,6 @@ This project features a clean interface, tab-based filtering (All → Active →
 - Dark mode with smooth transitions
 - Fully responsive (desktop & mobile optimized)
 - Dynamic rendering based on data.json
-- Auto-mapped extension logos for cleaner imports
 
 ## 🛠 Technologies Used
 
