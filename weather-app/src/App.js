@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 // Importing Components.
 import Navbar from "./components/Navbar";
+// eslint-disable-next-line
 import Loading from "./components/Loading";
 import Error from "./components/Error";
 import MainWeatherCard from "./components/MainWeatherCard";
@@ -89,7 +90,8 @@ function App() {
 
   // Loading UI. 
   if (loading) {
-    return <Loading />;
+    // return <Loading />;
+    return null;
   }
 
   return (
