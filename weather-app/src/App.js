@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 // Importing Components.
 import Navbar from "./components/Navbar";
-// eslint-disable-next-line
 import Loading from "./components/Loading";
 import Error from "./components/Error";
 import MainWeatherCard from "./components/MainWeatherCard";
@@ -88,10 +87,9 @@ function App() {
     return <Error fetchWeather={() => fetchWeather("Berlin")} />;
   }
 
-  // Loading UI. 
+  // Loading UI.
   if (loading) {
-    // return <Loading />;
-    return null;
+    return <Loading />;
   }
 
   return (
