@@ -93,7 +93,7 @@ function App() {
                 type="text"
                 value={form.first}
                 onChange={(e) => setForm({ ...form, first: e.target.value })}
-                className="w-full border border-[#0c7d69] rounded-md p-3 focus:ring-2 focus:ring-blue-500"
+                className="w-full border border-gray-300 hover:border-[#0c7d69] rounded-md p-3 focus:ring-2 focus:ring-blue-500"
               />
               {errors.first && (
                 <p className="text-red-500 text-sm mt-1">{errors.first}</p>
@@ -108,7 +108,7 @@ function App() {
                 type="text"
                 value={form.last}
                 onChange={(e) => setForm({ ...form, last: e.target.value })}
-                className="w-full border border-[#0c7d69] rounded-md p-3 focus:ring-2 focus:ring-blue-500"
+                className="w-full border border-gray-300 hover:border-[#0c7d69] rounded-md p-3 focus:ring-2 focus:ring-blue-500"
               />
               {errors.last && (
                 <p className="text-red-500 text-sm mt-1">{errors.last}</p>
@@ -125,7 +125,7 @@ function App() {
               type="email"
               value={form.email}
               onChange={(e) => setForm({ ...form, email: e.target.value })}
-              className="w-full border border-[#0c7d69] rounded-md p-3 focus:ring-2 focus:ring-blue-500"
+              className="w-full border border-gray-300 hover:border-[#0c7d69] rounded-md p-3 focus:ring-2 focus:ring-blue-500"
             />
             {errors.email && (
               <p className="text-red-500 text-sm mt-1">{errors.email}</p>
