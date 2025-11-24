@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Contact Form
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully responsive and accessible contact form built with React, styled using TailwindCSS, and enhanced with custom validation, animated success popup, and interactive query-type selection.
+This project demonstrates clean UI design, form validation, and state management best practices.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+### Modern UI/UX:
 
-### `npm start`
+- Clean, minimal, mobile-first layout
+- Soft color palette and rounded UI components
+- Fully responsive grid system
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Form Validation:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Required fields: First Name, Last Name, Email, Query Type, Message
+- Email format validation
+- Real-time error messages with red text
+- Asterisk indicators styled with custom color (#8aaba0)
 
-### `npm test`
+### Custom Query Type Selector:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Replaces the dropdown with two selectable circular options
+- “General Enquiry” and “Support Request”
 
-### `npm run build`
+### Success Popup:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Dark overlay
+- Modern centered notification card
+- Custom success icon
+- Close button
+- Smooth user experience
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React
+- TailwindCSS	
+- JavaScript (ES6+)
 
-### `npm run eject`
+## 🔧 Installation & Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Clone the repo
+`git clone https://github.com/your-username/frontend-mentor.git`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Navigate to the project
+`cd contact-form`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Install dependencies
+`npm install`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Run the project
+`npm run start`
 
-## Learn More
+## 💡 What I Learned
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### UI/UX Enhancements:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- How to create clean, modern front-end layouts with TailwindCSS
+- How to center modals and overlays correctly
+- Custom styling with branded colors
 
-### Code Splitting
+### Form Validation Concepts:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Implementing controlled inputs in React
+- Creating user-friendly error messages
+- Handling required fields and email pattern checks
 
-### Analyzing the Bundle Size
+### React State Management:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Managing form-related state
+- Conditional rendering (e.g., success popup)
+- Passing props and handling events
 
-### Making a Progressive Web App
+### Component Reusability:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Separating popup modal into its own component
+- Keeping the form clean and readable
 
-### Advanced Configuration
+### UX Improvements:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Replacing dropdown with radio-like circle options
+- Providing instant visual feedback for validation
+- Ensuring a seamless submit experience
